@@ -1,0 +1,100 @@
+*{
+ margin:0 auto;
+ padding: 0 auto;
+}
+body{
+	overflow-x: hidden;
+	background: linear-gradient(90deg,#4E111E,#E4B6A2);
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 35%;
+	top:23%;
+	font-size: 52px;
+}
+.input{
+	padding: 10px;
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #fff;
+	border-radius: 40px;
+	background: linear-gradient(90deg,#8754A4,#7500DB);
+	border: black 2px;
+	position: absolute;
+	left:46%;
+	top: 107%;
+}
+.foto{
+
+	padding: 0;
+	margin: 0;
+	background: linear-gradient(90deg,#4E111E,#E4B6A2);
+}
+.f1{
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	
+}
+.figure{
+	position: relative;
+	left:5%;
+}
+figcaption{
+	width: 90%;
+	position: relative;
+	bottom: 91.5%;
+	height: 7%;
+	text-align: center;
+  	background-color: rgba(255, 255, 255, 0.8);
+}
+.r{
+	max-width: 100%;
+	padding:10px; 
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 40px;
+	background: linear-gradient(90deg,#8754A4,#7500DB);
+	border: black 2px;
+	position: absolute;
+	left:46%;
+	top:480%;
+}
+
+@media screen and (max-width: 800px){
+	.f1{
+		flex-direction: row;
+	}
+	
+	h1{
+		width: auto;
+	}
+	.unput{
+		position: absolute;
+		top: 
+	}
+}
+
+
+@media screen and (max-width: 510px){
+.f1{
+	flex-direction: column;
+}
+
+}
+	
+
+ 

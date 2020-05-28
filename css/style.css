@@ -1,0 +1,65 @@
+body{
+	background: linear-gradient(90deg,#451F4A,#A73A5F);
+	color: #fff;
+	text-align: center;
+}
+.div1{
+	
+	display: flex;
+	justify-content: center;
+}
+form{
+	padding: 30px;
+}
+input{
+	font-size: 18px;
+	padding:10px; 
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #fff;
+	border-radius: 40px;
+	background: linear-gradient(90deg,#8754A4,#7500DB);
+	border: black 2px;
+
+}
+h1{
+	text-align: center;
+	color: #fff;
+}
+.div2{
+	font-size: 18px;
+}
+@media screen and (max-width: 320px){
+	.div1{
+	flex-direction: column;
+}
+h1{
+	font-size: 200px;
+}
+}
+@media screen and (max-width: 480px){
+	.div1{
+	flex-direction: column;
+}
+	h1{
+	font-size: 200px;
+}	
+}
+
+@media screen and (max-width: 720px){
+	.div1{
+	flex-direction: column;
+}
+h1{
+	font-size: 200px;
+}
+}
+
+@media screen and (max-width: 1080px){
+	.div1{
+	flex-direction: column;
+}
+	h1{
+	font-size: 200px;
+}
+}

@@ -1,0 +1,17 @@
+.input{
+	padding: 10px;
+	font-size: 18px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #fff;
+	border-radius: 40px;
+	background: linear-gradient(90deg,#71034A,#7500DB);
+	border: black 2px;
+}
+body{
+	background: linear-gradient(90deg,#3C196B,#468EF4);
+}
+.div1{
+	display: flex;
+	justify-content: center;
+}
